@@ -69,10 +69,10 @@ document.querySelector("#slider").addEventListener("change", function(e) {
 
 // Code oldSchool class to set a graycale filter on video
 document.querySelector("#vintage").addEventListener("click", function() {
-	video.style.filter = 'grayscale(100%)';
+	video.classList.add('oldSchool');
 });
 
 // Code orig class to remove oldSchool grayscale button
 document.querySelector("#orig").addEventListener("click", function() {
-	video.style.filter = 'grayscale(0%)'
+	video.classList.remove('oldSchool')
 });
