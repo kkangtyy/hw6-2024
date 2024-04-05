@@ -47,7 +47,7 @@ document.querySelector("#skip").addEventListener("click", function() {
 	if (video.currentTime >= video.duration) {
 		video.currentTime = 0
 	}
-	console.log("Current Video Location is" + video.currentTime);
+	console.log("Current Video Location is " + video.currentTime);
 });
 
 // Mute/unmute video and change the button's name accordingly
