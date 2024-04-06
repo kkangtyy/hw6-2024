@@ -59,14 +59,6 @@ document.querySelector("#mute").addEventListener("click", function() {
 		video.muted = false;
 		document.querySelector("#mute").innerHTML = "Mute"
 	}
-
-	// if (document.querySelector("#mute").innerHTML=="Unmute") {
-	// 	video.volume = 1;
-	// 	document.querySelector("#mute").innerHTML = "Mute"
-	// } else {
-	// 	video.volume = 0;
-	// 	document.querySelector("#mute").innerHTML = "Unmute";
-	// }
 });
 
 // Change volume using slider and update volume information on the side
